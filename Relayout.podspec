@@ -24,7 +24,7 @@ really dynamic layouts that change or react to UI state changes using Auto Layou
 
   s.source       = { :git => "https://github.com/stevestreza/Relayout.git", :tag => "1.1.0" }
 
-  s.source_files  = "Framework", "Sources/*.swift"
+  s.source_files  = "Framework", "Framework/**/*.swift"
 
   s.frameworks = "Foundation"
   s.ios.frameworks = "UIKit"
